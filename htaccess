@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule ^/?$ index.php
+RewriteRule ^auth/?$ auth.php
+RewriteRule ^vote/?$ vote.php
+RewriteRule ^complete/?$ complete.php
+RewriteRule ^failed/?$ failed.php
+RewriteRule ^live/?$ includes/results.php
+
