@@ -10,10 +10,10 @@ class Votes
 {
 
     function __construct(){
-            $this->servername = "DATABASE HOST";
-            $this->username = "DATABASE USERNAME";
-            $this->password = 'DATABASE PASSWORD';
-            $this->dbname = "DATABASE NAME";
+        $this->servername = $_ENV['DB_SERVER_NAME'];
+        $this->username = $_ENV['DB_USERNAME'];
+        $this->password = $_ENV['DB_PASSWORD'];
+        $this->dbname = $_ENV['DB_NAME'];
     }
 
 
